@@ -1,12 +1,23 @@
-#footer-links {
+#footer-links, #header-links {
 	display: flex;
 	position: absolute;
-	bottom: 30px;
-	left: 30px;
+	
+
 	height: 40px;
 	width: 150px;
 	justify-content: space-between;
 	align-items: center;
+	
+}
+
+#footer-links {
+	bottom: 40px;
+	left: 40px;
+}
+
+#header-links {
+ right: 40px;
+ top: 40px;
 	
 }
 
