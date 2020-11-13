@@ -10,6 +10,7 @@
 	
 }
 
+
 #footer-links {
 	bottom: 40px;
 	left: 40px;
@@ -33,11 +34,14 @@
 
 #header {
 	height: 60vh;
+	
 	background-color: #F82A0D;
 }
 
+
 #footer {
 	height: 40vh;
+	
 	background-color: #0D4FF8;
 }
 
@@ -48,3 +52,4 @@ body {
 	
 	margin: 0 0 0 0;
 }
+
