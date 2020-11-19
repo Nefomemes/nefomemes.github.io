@@ -1,3 +1,10 @@
+#footer {
+	background-image: url("index.svg");
+	background-size: 100vw;
+	background-position-y: -10px;
+	background-repeat: no-repeat;
+}
+
 #footer-links, #header-links {
 	display: flex;
 	position: absolute;
@@ -33,17 +40,46 @@
 }
 
 #header {
-	height: 60vh;
-	
+	height: 70vh;
+	position: relative;
+
 	background-color: #F82A0D;
 }
 
+#title-container {
+	position: absolute;
+top: 50%; left: 10%; %);
+
+	display: flex;
+	justify-content: flex-start;
+	
+	
+	
+}
+
+#tagline {
+	font-size: 30px;
+	margin-top: -50px;
+}
+
+#branding {
+	font-size: 40px;
+	
+	font-weight: bold;
+}
+#title {
+	display: flex;
+	orientation: vertical;
+	font-family: Arial;
+	
+	
+}
 
 #footer {
-	height: 40vh;
-	
+	height: 30vh;
 	background-color: #0D4FF8;
 }
+
 
 
 body {
@@ -51,5 +87,16 @@ body {
 	color: white;
 	
 	margin: 0 0 0 0;
+}
+
+@media only screen and (orientation: landscape){
+#footer {
+	height: 60vh;
+}
+
+#header {
+	height: 40vh;
+}
+
 }
 
