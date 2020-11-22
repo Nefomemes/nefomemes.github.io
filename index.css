@@ -1,8 +1,35 @@
-#footer {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#intro-container {
 	background-image: url("index.svg");
 	background-size: 100vw;
 	background-position-y: -10px;
 	background-repeat: no-repeat;
+}
+#footer {
+	background-image: url("index-bottom.svg");
+	background-size: 100vw;
+	background-position-y: -10px;
+	background-repeat: no-repeat;
+}
+#intro-container {
+	background-color: white;
+	height: 100vh;
+	position: relative;
+	
+	margin-top: -20px;
+}
+
+#intro {
+	position: absolute;
+	top: 75%;
+	left: 20%;
+	transform: translate(-25%, -50%);
+	color: black;
+	width: 50%;
+	font-size: 37px;
+	font-family: "Roboto"; 
+	
 }
 
 #footer-links, #header-links {
@@ -40,7 +67,7 @@
 }
 
 #header {
-	height: 70vh;
+	height: 55vh;
 	position: relative;
 
 	background-color: #F82A0D;
@@ -79,8 +106,9 @@ width: 75vw;
 }
 
 #footer {
-	height: 30vh;
+	height: 75vh;
 	background-color: #0D4FF8;
+	position: relative;
 }
 
 
@@ -93,13 +121,6 @@ body {
 }
 
 @media only screen and (orientation: landscape){
-#footer {
-	height: 60vh;
-}
-
-#header {
-	height: 40vh;
-}
 
 #title-container {
 	transform: translateY(-20%);
