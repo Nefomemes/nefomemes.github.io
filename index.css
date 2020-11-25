@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+a {
+	text-decoration: none;
+}
 #intro-container {
-	background-image: url("index.svg");
+
 	background-size: 100vw;
 	background-position-y: -10px;
 	background-repeat: no-repeat;
 }
-#footer {
-	background-image: url("index-bottom.svg");
-	background-size: 100vw;
-	background-position-y: -10px;
+
+#top-wave {
+	background-image: url("index.svg");
 	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100vw;
+	background-color: white;
+	height: 25vw;
+}
+
+#bottom-wave {
+	background-image: url("index-bottom.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100vw;
+	
+	background-color: white;
+	height: 25vw;
+}
+
+#footer {
+	
+	margin-top: -20px;
 }
 #intro-container {
 	background-color: white;
@@ -22,21 +42,32 @@
 
 #intro {
 	position: absolute;
-	top: 75%;
-	left: 20%;
-	transform: translate(-25%, -50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: black;
-	width: 50%;
-	font-size: 37px;
-	font-family: "Roboto"; 
+	width: 60%;
+	font-size: 30px;
+
 	
+	
+}
+
+#navi-links {
+	display: flex;
+	position: absolute;
+	
+	left: -10px;
+	width: calc(100vw - 20px);
+	justify-content: space-between;
+
 }
 
 #footer-links, #header-links {
 	display: flex;
 	position: absolute;
 	
-
+margin-top: 0px;
 	height: 50px;
 	width: 150px;
 	justify-content: space-between;
@@ -44,6 +75,18 @@
 	
 }
 
+.link-title {
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+.link-bar li a{
+color: white;
+}
+.link-bar {
+	list-style: none;
+}
 
 #footer-links {
 	bottom: 40px;
@@ -76,7 +119,7 @@
 #title-container {
 	position: absolute;
 	top: 30vh; left: 10%; 
-transform: translateY(-50%);
+transform: translate( -0%,-50%);
 	display: flex;
 	justify-content: flex-start;
 	
@@ -100,15 +143,15 @@ width: 75vw;
 #title {
 	display: flex;
 	orientation: vertical;
-	font-family: Arial;
 	
 	
 }
 
 #footer {
-	height: 75vh;
+	height: 25vh;
 	background-color: #0D4FF8;
 	position: relative;
+
 }
 
 
@@ -116,7 +159,7 @@ width: 75vw;
 body {
 	background: black;
 	color: white;
-	
+	font-family: Arial;
 	margin: 0 0 0 0;
 }
 
@@ -128,3 +171,16 @@ body {
 
 }
 
+
+@media only screen and (orientation: portrait){
+	#header {
+		height: 80vh;
+	}
+	
+	#intro-container {
+		height: 50vh;
+		
+	}
+	
+	
+}

@@ -74,7 +74,6 @@ transform: translateY(-50%);
 #title {
 	display: flex;
 	orientation: vertical;
-	font-family: Arial;
 	
 	
 }
@@ -89,7 +88,7 @@ transform: translateY(-50%);
 body {
 	background: black;
 	color: white;
-	
+	font-family: Arial;
 	margin: 0 0 0 0;
 }
 
