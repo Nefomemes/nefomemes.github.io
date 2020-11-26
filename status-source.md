@@ -148,7 +148,7 @@ display: none;
   <li class="link-title">This site</li>
 
   <li><a href="/incidents/">All incidents</a></li>
-
+   <li><a href="https://nefomemes.github.io/status-source/">Source code</a></li>
   <li><a href="https://instatus.com/">Powered by Instatus</a></li>  </ul>
 
   <ul class="link-bar"> 
@@ -174,7 +174,9 @@ display: none;
   
 
   <nav id="footer-links"> 	
-
+<a href="https://github.com/Nefomemes"><img src="github.svg" class="icons"></a>
+   <a><img src="discord.svg" class="icons" id="discord-icon"></a>
+   <a href="https://guilded.gg/Nefomemes"><img src="guilded.svg" class="icons"></a>
 <a href="https://reddit.com/u/NF-MIP"><img src="https://nefomemes.github.io/reddit.svg" id="reddit-logo" class="icons" ></a> 
 
 <a href="https://twitter.com/ForTombstone">	<img src="https://nefomemes.github.io/twitter.svg" class="icons"></a> 
