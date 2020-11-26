@@ -9,12 +9,16 @@ a {
 	background-repeat: no-repeat;
 }
 
+#background {
+	background-image: url("bg-white.svg");
+}
+
 #top-wave {
 	background-image: url("index.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100vw;
-	background-color: white;
+	
 	height: 25vw;
 }
 
@@ -24,7 +28,7 @@ a {
 	background-size: contain;
 	width: 100vw;
 	
-	background-color: white;
+
 	height: 25vw;
 }
 
@@ -33,7 +37,7 @@ a {
 	margin-top: -20px;
 }
 #intro-container {
-	background-color: white;
+
 	height: 100vh;
 	position: relative;
 	

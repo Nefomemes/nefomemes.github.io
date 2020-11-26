@@ -1,0 +1,267 @@
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<b:skin><![CDATA[
+
+a {
+	text-decoration: none;
+}
+#intro-container {
+
+	background-size: 100vw;
+	background-position-y: -10px;
+	background-repeat: no-repeat;
+}
+
+#top-wave {
+	background-image: url("https://nefomemes.github.io/index.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100vw;
+	background-color: white;
+	height: 25vw;
+}
+
+#bottom-wave {
+	background-image: url("https://nefomemes.github.io/index-bottom.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100vw;
+	
+	background-color: white;
+	height: 25vw;
+}
+
+#footer {
+	
+	margin-top: -20px;
+}
+#content-container {
+	background-color: white;
+	height: 100vh;
+	position: relative;
+	
+	margin-top: -20px;
+}
+
+#intro {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	width: 60%;
+	font-size: 30px;
+
+	
+	
+}
+
+#navi-links {
+	display: flex;
+	position: absolute;
+	
+	
+	width: calc(100vw - 40px);
+	justify-content: space-between;
+
+}
+
+#footer-links, #header-links {
+	display: flex;
+	position: absolute;
+	
+margin-top: 0px;
+	height: 50px;
+	width: 150px;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.link-title {
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+.link-bar li a{
+color: white;
+}
+.link-bar {
+	list-style: none;
+}
+
+#footer-links {
+	bottom: 40px;
+	left: 40px;
+}
+
+#header-links {
+ right: 40px;
+ top: 40px;
+	
+}
+
+.icons {
+	width: 40px;
+	height: 40px;
+}
+
+#discord-icon {
+	width: 50px;
+	height: 50px;
+}
+
+#header {
+	height: 55vh;
+	position: relative;
+
+	background-color: #F82A0D;
+}
+
+#title-container {
+	position: absolute;
+	top: 30vh; left: 10%; 
+transform: translate( -0%,-50%);
+	display: flex;
+	justify-content: flex-start;
+	
+	
+	
+}
+
+#tagline {
+	font-size: 30px;
+	margin-top: -70px;
+
+width: 75vw;
+}
+
+#branding {
+	font-size: 60px;
+	
+	font-weight: bolder;
+	
+}
+#title {
+	display: flex;
+	orientation: vertical;
+	
+	
+}
+
+#footer {
+	height: 25vh;
+	background-color: #0D4FF8;
+	position: relative;
+
+}
+
+
+
+body {
+	background: black;
+	color: white;
+	font-family: Arial;
+	margin: 0 0 0 0;
+}
+
+@media only screen and (orientation: landscape){
+
+#title-container {
+	transform: translateY(-20%);
+}
+
+}
+
+
+@media only screen and (orientation: portrait){
+	#header {
+		height: 80vh;
+	}
+	
+	#intro-container {
+		height: 50vh;
+		
+	}
+	
+	
+}
+
+
+
+]]></b:skin> 
+</head>
+<body>
+
+  <body>
+  	<div id="content">
+  	<header id="header">
+  	<nav id="header-links">
+<a href="https://github.com/Nefomemes"><img src="https://nefomemes.github.io/github.svg" class="icons"></a>
+<a><img src="https://nefomemes.github.io/discord.svg" class="icons" id="discord-icon"></a>
+<a href="https://guilded.gg/Nefomemes"><img src="https://github.com/guilded.svg" class="icons"></a>
+</nav>
+
+  		<div id="title-container">
+  			<div id="title">
+  			<div>
+  <p id="branding">Nefomemes</p>
+  			<p id="tagline">Hey there, I do coding and stuff.</p>
+  			</div>
+  			</div>
+ </div>
+ 		
+  	</header> 
+  	<div id="top-wave"></div>
+  
+
+	<div id="content-container">
+<b:section id="content" maxwidgets="5" showaddelement="no">
+
+<b:widget id="main-content" type="blog">
+<div class="b:post>
+
+</div>
+</b:widget>
+
+
+</b:section>
+
+		</div>
+		
+<div id="bottom-wave"></div>
+  <footer id="footer">
+
+<nav id="navi-links">
+	<ul class="link-bar">
+		<li class="link-title">This site</li>
+		<li><a href="https://github.com/Nefomemes/nefomemes.github.io/">Source code</a></li>
+	</ul>
+	<ul class="link-bar">
+
+	<li class="link-title">Other stuff</li>
+	<li><a href="https://nefomemes.github.io/">Website</a></li>
+	<li><a href="https://nefomemes.instatus.com/">Status page</a></li>
+	</ul>
+	<ul class="link-bar">
+		<li class="link-title">My stuff</li>
+		<li><a href="https://github.com/Nefomemes/Kylebot">Kylebot</a></li>
+	</ul>
+</nav>
+
+  	<nav id="footer-links">
+  		<a href="https://reddit.com/u/NF-MIP"><img src="https://nefomemes.github.io/reddit.svg" id="reddit-logo" class="icons" ></a>
+  <a href="https://twitter.com/ForTombstone">	<img src="https://nefomemes.github.io/twitter.svg" class="icons"></a>
+  	<a href="https://repl.it/@Nefomemes">	<img src="https://nefomemes.github.io/ replit.svg" class="icons"></a>
+  	</nav>
+  </footer>
+    <script src="index.js"></script>
+    </div>
+  </body>
+
+</body>
+</html>
