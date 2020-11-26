@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 a {
 	text-decoration: none;
 }
-#intro-container {
 
-	background-size: 100vw;
-	background-position-y: -10px;
-	background-repeat: no-repeat;
-}
 
 #background {
 	background-image: url("bg-white.svg");
@@ -38,7 +33,7 @@ a {
 }
 #intro-container {
 
-	height: 100vh;
+	height: 42.5vh;
 	position: relative;
 	
 	margin-top: -20px;
@@ -52,6 +47,7 @@ a {
 	color: black;
 	width: 60%;
 	font-size: 30px;
+	font-weight: 300;
 
 	
 	
@@ -182,7 +178,7 @@ body {
 	}
 	
 	#intro-container {
-		height: 50vh;
+		height: 42.5vh;
 		
 	}
 	
