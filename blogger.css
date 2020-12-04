@@ -292,9 +292,9 @@ a, a:link, a:visited {
 }
 #title-container {
 position: absolute;
-top: 50%;
+top: 70%;
 left: 40px;
-transform: translateY(-50%);
+transform: translateY(-70%);
 }
 
 #branding {
