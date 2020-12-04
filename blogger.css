@@ -286,7 +286,7 @@ a, a:link, a:visited {
   position: absolute;
   top: 60%;
   left: 25%;
-  transform: translate( -25%, -40%);
+  transform: translateY(-40%);
   display: flex;
   justify-content: flex-start;
 }
