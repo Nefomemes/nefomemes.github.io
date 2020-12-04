@@ -277,7 +277,7 @@ a, a:link, a:visited {
 }
 
 #header {
- margin-to30vh;
+  height: 20vh;
   position: relative;
   background-color: #F82A0D;
 }
