@@ -279,6 +279,7 @@ a, a:link, a:visited {
 #header {
   height: 20vh;
   position: relative;
+  
   background-color: #F82A0D;
 }
 
@@ -288,6 +289,12 @@ a, a:link, a:visited {
   font-size: 30px;
   margin-top: -70px;
   width: 75vw;
+}
+#title-container {
+position: absolute;
+top: 50%;
+left: 40px;
+transform: translateY(-50%);
 }
 
 #branding {
