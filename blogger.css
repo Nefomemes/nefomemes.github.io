@@ -277,19 +277,12 @@ a, a:link, a:visited {
 }
 
 #header {
-  height: 55vh;
+ margin-to30vh;
   position: relative;
   background-color: #F82A0D;
 }
 
-#title-container {
-  position: absolute;
-  top: 60%;
-  left: 25%;
-  transform: translateY(-40%);
-  display: flex;
-  justify-content: flex-start;
-}
+
 
 #tagline {
   font-size: 30px;
@@ -320,18 +313,5 @@ body {
   margin: 0 0 0 0;
 }
 
-@media only screen and (orientation: landscape) {
-  #title-container {
-    transform: translateY(-20%);
-  }
-}
 
-@media only screen and (orientation: portrait) {
-  #header {
-    height: 30vh;
-  }
 
-  #intro-container {
-    height: 42.5vh;
-  }
-}
