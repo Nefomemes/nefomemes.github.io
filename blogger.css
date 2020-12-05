@@ -81,9 +81,8 @@ title {
   
 }
 
-a, a:link, a:visited {
-  color: black;
-}
+
+
 
 .post-body {
   margin-top: -20px;
@@ -214,16 +213,7 @@ a, a:link, a:visited {
   margin-top: -20px;
 }
 
-#intro {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  width: 60%;
-  font-size: 30px;
-  font-weight: 300;
-}
+
 
 #navi-links {
   display: flex;
@@ -247,9 +237,7 @@ a, a:link, a:visited {
   font-weight: bold;
 }
 
-.link-bar li a {
-  color: white;
-}
+
 
 .link-bar {
   list-style: none;
@@ -279,7 +267,7 @@ a, a:link, a:visited {
   height: 250px;
   position: relative;
   
-  background-color: #F82A0D;
+  background-color:  #F82A0D;
 }
 
 
@@ -313,8 +301,7 @@ left: 40px;
 }
 
 body {
-  background: black;
-  color: white;
+  
   font-family: Arial;
   margin: 0 0 0 0;
 }
