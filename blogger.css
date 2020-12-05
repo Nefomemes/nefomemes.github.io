@@ -69,7 +69,8 @@ title {
 
 .banner, .banner img {
   object-fit: cover;
- 
+  height: auto;
+  width: 100%;
   margih-top: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -77,6 +78,7 @@ title {
 
 .featured-image, .featured-image img {
   margin-top: -10px;
+  
 }
 
 a, a:link, a:visited {
