@@ -205,9 +205,7 @@ a, a:link, a:visited {
   height: 25vw;
 }
 
-#footer {
-  margin-top: -1vw;
-}
+
 
 #intro-container {
   height: 42.5vh;
@@ -277,7 +275,7 @@ a, a:link, a:visited {
 }
 
 #header {
-  height: 30vh;
+  height: 500px;
   position: relative;
   
   background-color: #F82A0D;
