@@ -310,6 +310,7 @@ left: 40px;
   height: 30vh;
   background-color: #0D4FF8;
   position: relative;
+  margin-top: -40px;
 }
 
 body {
