@@ -2,3 +2,6 @@ a, a:link, a:visited {  color: black;}
 
 .link-bar li a {  color: white; }
 
+body {
+background: black;  color: white;
+}
