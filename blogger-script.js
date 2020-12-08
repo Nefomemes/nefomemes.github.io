@@ -28,7 +28,7 @@ function getTheme() {
 
       
 
-      document.getElementById("change-theme-button").textContent = `Switch to ${(() =>; { var setting = getTheme(); switch(setting){case &#39;light&#39;: return &#39;dark&#39;; default: return &#39;light&#39;; }})()} mode`;
+      document.getElementById("change-theme-button").textContent = `Switch to ${(() =>; { var setting = getTheme(); switch(setting){case "light": return "dark"; default: return "light"; }})()} mode`;
 
       
 
@@ -39,11 +39,11 @@ function getTheme() {
 
       if(getTheme().toLowerCase() === "light"){
 
-      document.cookie = &#39;nefomemesTheme=dark&#39;;
+      document.cookie = "nefomemesTheme=dark";
 
       } else {
 
-      document.cookie = &#39;nefomemesTheme=light&#39;;
+      document.cookie = "nefomemesTheme=light";
 
       }
 
