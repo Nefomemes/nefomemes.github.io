@@ -3,3 +3,7 @@
 .blog-desc .author-image {     filter: invert(100%);     }         .small-icon {     filter: invert(100%);     }                 * {     color: #f7f7f7     }
 
 a, a:link, a:visited {  color: #f7f7f7;}
+
+
+.post-body a:link, .post-body a:visited {  color: #0D4FF8;}
+
