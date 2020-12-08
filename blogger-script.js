@@ -1,20 +1,10 @@
-	function getTheme() {
-
-		return (() =&gt; {
-
-			var io = (document.cookie || &#39;&#39;).split(&#39;;&#39;).find(i =&gt; i.split(&#39;=&#39;)[0] === &#39;nefomemesTheme&#39;);
-
-			if (io) return io.split(&#39;=&#39;)[1];
-
+function getTheme() {
+ return (() => {
+ var io = (document.cookie || "").split(";").find(i =>; i.split("=")[0] === "nefomemesTheme");
+ if (io) return io.split(";")[1];
 			return;
-
-		})() || &#39;dark&#39;;
-
-	}
-
-      
-
-      
+		})() || "dark";
+	}         
 
 	function triggerTheme() {
 
@@ -26,33 +16,28 @@
 
       
 
-      
+      if(getTheme().toLowerCase() === "light"){
 
-      if(getTheme().toLowerCase() === &#39;light&#39;){
-
-      document.getElementById(&quot;dark-theme&quot;).type = &quot;text/plain&quot;;
+      document.getElementById("dark-theme").type = "text/plain";
 
 	} else {
 
-      document.getElementById(&quot;dark-theme&quot;).type = &quot;text/css&quot;;
+      document.getElementById("dark-theme").type = "text/css";
 
       }
 
       
 
-      document.getElementById(&#39;change-theme-button&#39;).textContent = `Switch to ${(() =&gt; { var setting = getTheme(); switch(setting){case &#39;light&#39;: return &#39;dark&#39;; default: return &#39;light&#39;; }})()} mode`;
+      document.getElementById("change-theme-button").textContent = `Switch to ${(() =>; { var setting = getTheme(); switch(setting){case &#39;light&#39;: return &#39;dark&#39;; default: return &#39;light&#39;; }})()} mode`;
 
       
 
       
 
       }
+			      function changeTheme() {
 
-      
-
-function changeTheme() {
-
-      if(getTheme().toLowerCase() === &quot;light&quot;){
+      if(getTheme().toLowerCase() === "light"){
 
       document.cookie = &#39;nefomemesTheme=dark&#39;;
 
