@@ -18,11 +18,13 @@ function getTheme() {
 
       if(getTheme().toLowerCase() === "light"){
 
-      document.getElementById("dark-theme").type = "text/plain";
+      document.getElementById("dark-theme").rel = "stylesheet";
+      document.getElementById("light-theme").rel = "ignored";
 
 	} else {
 
-      document.getElementById("dark-theme").type = "text/css";
+      document.getElementById("dark-theme").rel = "stylesheet";
+      document.getElementById("light-theme").rel = "ignored";
 
       }
 
