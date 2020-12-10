@@ -191,7 +191,7 @@ a, a:link, a:visited {
 
 #top-wave {
  fill:  #F82A0D;
-
+margin-top: -10px;
   
   width: 100vw;
   height: 25vw;
