@@ -318,7 +318,7 @@ background: black;  color: white;
 
 #background {              background-color: #f7f7f7;     }
 
-.transition {
-  transition-property: all;
+.theme-transition {
+  
   transition-duration: 4s;
 }
