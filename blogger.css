@@ -306,7 +306,7 @@ body {
   margin: 0 0 0 0;
 }
 
-a, a:link, a:visited {  color: black;}
+a, a:link, a:visited {  color: black; }
 
 .link-bar li a {  color: white; }
 
@@ -318,3 +318,7 @@ background: black;  color: white;
 
 #background {              background-color: #f7f7f7;     }
 
+* {
+  transition-property: all;
+  transition-duration: 4s;
+}
