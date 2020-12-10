@@ -197,7 +197,7 @@ margin-top: -20px;
   height: 25vw;
 }
 
-#top-wave svg { fill: #F82A0D; }
+#top-wave path { fill: #F82A0D; }
 #bottom-wave {
   background-image: url("https://nefomemes.github.io/index-bottom.svg");
   background-repeat: no-repeat;
