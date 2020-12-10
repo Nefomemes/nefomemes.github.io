@@ -190,9 +190,9 @@ a, a:link, a:visited {
 }
 
 #top-wave {
- 
-  background-repeat: no-repeat;
-  background-size: contain;
+ fill:  #F82A0D;
+
+  
   width: 100vw;
   height: 25vw;
 }
