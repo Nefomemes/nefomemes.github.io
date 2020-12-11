@@ -280,7 +280,7 @@ margin-top: -25px;
 }
 #title-container {
 position: absolute;
-left: 40%;
+left: 40px;
 top: 50%;
 transform: translateY(-50%);
 }
