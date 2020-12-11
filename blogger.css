@@ -4,10 +4,13 @@ title {
   display: inline;
 }
 
+.blog-posts {
+margin-top: 20px;
+}
+
 .post-outer {
   border-top: solid 0.1px;
-  padding-bottom: 20px;
-margin-top: 40px;
+
   border-bottom: solid 0.1px;
 }
 
