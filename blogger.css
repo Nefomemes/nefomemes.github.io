@@ -316,14 +316,12 @@ a, a:link, a:visited {  color: black; }
 
 .link-bar li a {  color: white; }
 
-body {
-
-
-}
-
-
 /*
 .theme-transition {
   
   transition-duration: 4s;
 }*/
+
+#header, #footer {
+color: white;
+}
