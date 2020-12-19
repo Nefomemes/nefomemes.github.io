@@ -184,7 +184,7 @@ margin-top: 20px;
 
 #Blog1 {
   color: black;
-  width: 80vw;
+ 
   font-family: "Roboto";
   display: block;
 }
@@ -327,5 +327,9 @@ color: white;
 }
 
 @media only-screen and (orientation: horizontal) {
-  #Blog1 { width: 50vw !important; }
+  #Blog1 { width: 50vw; }
+}
+
+@media only-screen and (orientation: vertical) {
+  #Blog1 { width: 80vw; }
 }
