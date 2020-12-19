@@ -5,9 +5,10 @@
 a, a:link, a:visited {  color: #f7f7f7;}
 
 
-#header {
-  background-color:  #c51d07;
+#header, #footer {
+  background-color:  #100a0a;
 }
+
 
 #top-wave path {
 fill:  #c51d07;
