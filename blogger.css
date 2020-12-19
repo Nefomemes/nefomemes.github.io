@@ -325,3 +325,7 @@ a, a:link, a:visited {  color: black; }
 #header, #footer {
 color: white;
 }
+
+@media only-screen and (orientation: horizontal) {
+  #content { width: 60vw; }
+}
