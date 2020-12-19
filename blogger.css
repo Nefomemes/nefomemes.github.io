@@ -326,10 +326,10 @@ a, a:link, a:visited {  color: black; }
 color: white;
 }
 
-@media only-screen and (orientation: horizontal) {
+@media only screen and (orientation: horizontal) {
   #Blog1 { width: 50vw; }
 }
 
-@media only-screen and (orientation: vertical) {
+@media only screen and (orientation: vertical) {
   #Blog1 { width: 80vw; }
 }
