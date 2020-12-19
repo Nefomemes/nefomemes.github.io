@@ -201,14 +201,6 @@ margin-top: -25px;
   height: 25vw;
 }
 
-#top-wave path { fill: #F82A0D; }
-#bottom-wave {
-  background-image: url("https://nefomemes.github.io/index-bottom.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100vw;
-  height: 25vw;
-}
 
 
 
@@ -303,7 +295,7 @@ transform: translateY(-50%);
   height: 200px;
   background-color: #0D4FF8;
   position: relative;
-  margin-top: -40px;
+ 
 }
 
 body {
