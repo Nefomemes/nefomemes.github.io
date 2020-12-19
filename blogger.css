@@ -327,5 +327,5 @@ color: white;
 }
 
 @media only-screen and (orientation: horizontal) {
-  #Blog1 { width: 50vw; }
+  #Blog1 { width: 50vw !important; }
 }
