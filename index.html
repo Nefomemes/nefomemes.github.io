@@ -1,20 +1,55 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	<meta name="theme-color" content="#181818"/>
-<title>Nefomemes</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+	<meta name="theme-color" content="#181818" />
+	<title>Nefomemes</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<style>
 		#intro {
 			width: 100%;
 			height: 100vh;
-	background-color: #181818;
-	color: white;
-					
-		}
+			background-color: #181818;
+			color: white;
+			margin-bottom: -30px;
 
+
+		}
+		
+			#contact-phone {
+		height: 900px;
+	position: relative;
+		margin-bottom: -450px;
+		
+	}
+	#contact-phone-background {
+		z-index: 1;
+	}
+	#contact-phone-pic {
+	
+    height: 100%;
+    width: 100%;
+    position: absolute;
+z-index: 2;
+
+    background-image: url("ip-promax-12-g.png");
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#footer {
+	z-index: 3;
+}
+#contact-phone-background {
+	background-color: white;
+
+}
+		#contact-phone-container {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
 
 		#signin-circle {
 			border: 2.5px solid;
@@ -29,14 +64,39 @@
 
 		#title {
 			position: absolute;
-			  top: 50%;
+			top: 50%;
 
-  left: 50%;
-  transform: translate(-50%, -50%);
-		
-		
-		
-			
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+
+
+
+		}
+
+		#contact {
+			height: auto;
+			background-color: rgba(24, 24, 24, 0.98);
+			color: white;
+			padding-top: 70px;
+		}
+
+		#contact-title {
+			font-weight: 600;
+			font-size: 30px;
+			margin-bottom: -5px;
+
+		}
+
+		#contact-message {
+			font-size: 20px;
+
+		}
+
+		#contact-text {
+padding-bottom: 10px;
+			text-align: center;
+
 		}
 
 		#username {
@@ -46,7 +106,7 @@
 			margin-left: -4px;
 		}
 
-	
+
 		#message {
 			font-size: 20px;
 		}
@@ -54,85 +114,87 @@
 		#footer {
 			background-color: #100A0A;
 			color: white;
-		
+
 			padding-top: 20px;
-			
+
 
 
 
 			padding-bottom: 40px;
 			margin-top: -20px;
 			position: relative;
-			
+
 		}
-	
+
 		#navi-links {
 			flex-wrap: wrap;
-display: flex;  
+			display: flex;
 
-width: calc(100vw - 50px);
+			width: calc(100vw - 50px);
 
-justify-content: space-between; 
-}
- 
-#footer-links{  
-display: flex;  
-
-margin-top: 0px;
-height: 50px;
-width: 300px;
-justify-content: space-between;
-align-items: center;
-
-margin-left: 40px;
-margin-top: 40px;
-
-}
- 
-.icons {    
-width: 40px;
-height: 40px;
-}
- 
-#discord-icon {
-width: 50px;
-height: 50px;
-}
- 
-.link-title {
-font-size: 20px;    
-font-weight: bold;      
-color: white;
-}
- 
-#navi-links ul li a:link{
-color: white;
-}
- 
-#navi-links ul {
-list-style: none;
-}
-
-
-	#disclaimer {
-		
-			width: calc(100% - 90px);
-		
-			margin-left: 40px;
-			
-		
+			justify-content: space-between;
 		}
 
-		#disclaimer-title  {
+		#footer-links {
+			display: flex;
+
+			margin-top: 0px;
+			height: 50px;
+			width: 300px;
+			justify-content: space-between;
+			align-items: center;
+
+			margin-left: 40px;
+			margin-top: 40px;
+
+		}
+  
+		.icons {
+			width: 40px;
+			height: 40px;
+		}
+
+		#discord-icon {
+			width: 50px;
+			height: 50px;
+		}
+
+		.link-title {
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+
+		#navi-links ul li a:link {
+			color: white;
+		}
+
+		#navi-links ul {
+			list-style: none;
+		}
+
+
+		#disclaimer {
+
+			width: calc(100% - 90px);
+
+			margin-left: 40px;
+
+
+		}
+
+		#disclaimer-title {
 			font-weight: 600;
 			font-size: 25px;
 			margin-bottom: -15px;
 			text-align: center;
-		 }
+		}
 
 		#disclaimer-text {
 			text-align: justify;
 		}
+
+
 		body {
 			margin: 0 0 0 0;
 			width: 100vw;
@@ -140,85 +202,122 @@ list-style: none;
 			font-family: "Arial", sans-serif;
 		}
 
-
-
-
-		</style>
+@media only screen and (orientation: landscape){
+	#contact-phone {
+		height: 900px;
+		width: 400px;
+		margin-bottom: -450px;
+		
+	}
+	#contact-phone-pic {
+		background-size: auto 100%;
+				padding-top: 0;
+	}
+	#contact-phone-background {
+		background-color: white;
+		width: 363px;
+		position: absolute;
+		left: 19px;
+		top: 59px;
+		height: 500px;
+	}
+}
+	</style>
 </head>
-<body>
-<div id="intro">
-	
-	<div class="background">
-	
-	</div>
 
-	
-	<div id="title">
-		<p id="username">Nefomemes</p>
+<body>
+	<div id="intro">
+
+		<div class="background">
+
+		</div>
+
+
+		<div id="title">
+			<p id="username">Nefomemes</p>
 			<p id="message">Hey there! I do coding and stuff.</p>
 		</div>
 
-	<div id="signin-circle">
+		<div id="signin-circle">
 		</div>
 
 
 	</div>
-	<!--
-	<div class="contact">
-		<div><p>Wanna do something cool together</p></div>
-		<div>
-			<p>or just wanna contact me maybe</p>
-		</div>
-
-		<div>
+<
+	<div id="contact">
+		<div id="contact-text">
+			<div id="contact-title">
+				Wanna do something cool together?
 			</div>
-
+			<div id="contact-message">
+				or just wanna contact me maybe
+			</div>
 		</div>
--->
-	<footer id="footer">
+		<div id="contact-phone-container">
+		<div id="contact-phone">
+			<div id="contact-phone-background">
+				
+				</div>
+				<div id="contact-phone-pic">
+
+				</div>
+			</div>
+	</div>
 		
+
+	</div>
+
+
+
+	<footer id="footer">
+
 		<nav id="navi-links">
 			<ul class="links-bar">
 				<li class="link-title">
 					This website
-					</li>
+				</li>
 				<li>Privacy Policy</li>
 				<li>Source code</li>
-				</ul>
-				<ul class="links-bar">
-					<li class="link-title">
-						Other stuff
-						</li>
-						<li>Blog</li>
-						<li>
-	Status page							</li>
+			</ul>
+			<ul class="links-bar">
+				<li class="link-title">
+					Other stuff
+				</li>
+				<li>Blog</li>
+				<li>
+					Status page </li>
 
-						
-					</ul>
 
-					<ul>
-						<li class="link-title">
-							My projects
-							</li>
-							<li>Project Fortress</li>
-						</ul>
-			</nav>
+			</ul>
 
-<div id="disclaimer-container">
-		<div id="disclaimer">
-			<!-- 
+			<ul>
+				<li class="link-title">
+					My projects
+				</li>
+				<li>Project Fortress</li>
+			</ul>
+		</nav>
+
+		<div id="disclaimer-container">
+			<div id="disclaimer">
+				<!-- 
 
 				Free the Uyghurs!
 
 			-->
 				<p id="disclaimer-title">Disclaimer</p>
-						<p id="disclaimer-text">动态网自由门天安门天安门法轮功李洪志Free Tibet 六四天安门事件The Tiananmen Square protests of 1989 天安门大屠杀The Tiananmen Square Massacre 反右派斗争The Anti-Rightist Struggle 大跃进政策The Great Leap Forward 文化大革命The Great Proletarian Cultural Revolution 人权Human Rights 民运Democratization 自由Freedom 独立Independence 多党制Multi-party system 台湾台湾Taiwan Formosa 中华民国Republic of China 西藏土伯特唐古特Tibet 达赖喇嘛Dalai Lama 法轮功Falun Dafa 新疆维吾尔自治区The Xinjiang Uyghur Autonomous Region 诺贝尔和平奖Nobel Peace Prize 刘暁波Liu Xiaobo 民主言论思想反共反革命抗议运动骚乱暴乱骚扰扰乱抗暴平反维权示威游行李洪志法轮大法大法弟子强制断种强制堕胎民族净化人体实验肃清胡耀邦赵紫阳魏京生王丹还政于民和平演变激流中国北京之春大纪元时报评论共产党 独裁 专制 压制 统一 监视 镇压 迫害 侵略 掠夺 破坏 拷问 屠杀 活摘器官 诱拐 买卖人口 游进 走私 毒品 卖淫 春画 赌博 六合彩 天安门 天安门 法轮功 李洪志 Winnie the Pooh 刘晓波动态网自由门</p>
-			
-</div>
-</div>
+				<p id="disclaimer-text">动态网自由门天安门天安门法轮功李洪志Free Tibet 六四天安门事件The Tiananmen Square protests of 1989 天安门大屠杀The Tiananmen
+					Square Massacre 反右派斗争The Anti-Rightist Struggle 大跃进政策The Great Leap Forward 文化大革命The Great Proletarian Cultural Revolution
+					人权Human Rights 民运Democratization 自由Freedom 独立Independence 多党制Multi-party system 台湾台湾Taiwan Formosa 中华民国Republic of China
+					西藏土伯特唐古特Tibet 达赖喇嘛Dalai Lama 法轮功Falun Dafa 新疆维吾尔自治区The Xinjiang Uyghur Autonomous Region 诺贝尔和平奖Nobel Peace Prize 刘暁波Liu
+					Xiaobo 民主言论思想反共反革命抗议运动骚乱暴乱骚扰扰乱抗暴平反维权示威游行李洪志法轮大法大法弟子强制断种强制堕胎民族净化人体实验肃清胡耀邦赵紫阳魏京生王丹还政于民和平演变激流中国北京之春大纪元时报评论共产党 独裁 专制 压制
+					统一 监视 镇压 迫害 侵略 掠夺 破坏 拷问 屠杀 活摘器官 诱拐 买卖人口 游进 走私 毒品 卖淫 春画 赌博 六合彩 天安门 天安门 法轮功 李洪志 Winnie the Pooh 刘晓波动态网自由门</p>
 
-						<div id="footer-links">
-							<a href="https://github.com/Nefomemes"><img src="github.svg" class="icons"></a>
+			</div>
+		</div>
+
+		<div id="footer-links">
+			<a href="https://github.com/Nefomemes"><img src="github.svg" class="icons"></a>
 <a><img src="discord.svg" class="icons" id="discord-icon"></a>
 <a href="https://guilded.gg/Nefomemes"><img src="guilded.svg" class="icons"></a>
 	<a href="https://reddit.com/u/NF-MIP"><img src="reddit.svg" id="reddit-logo" class="icons" ></a>
