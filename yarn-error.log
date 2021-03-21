@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js add nuxt_plugin_plugin_93c17c86 ufo vue-meta express unfetch vue-router vue-client-only nuxt_plugin_plugin_bb96b95e vue-no-ssr compression node-fetch helmet
+  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js add helmet nuxt_plugin_plugin_3e064d9d nuxt_plugin_plugin_5d2c2371 ufo vue-client-only node-fetch vue-no-ssr compression unfetch vue-meta vue-router express
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/nuxt_plugin_plugin_93c17c86: Not found
+  Error: https://registry.yarnpkg.com/nuxt_plugin_plugin_3e064d9d: Not found
       at Request.params.callback [as _callback] (/opt/yarn-v1.22.5/lib/cli.js:66988:18)
       at Request.self.callback (/opt/yarn-v1.22.5/lib/cli.js:140749:22)
       at Request.emit (events.js:314:20)
