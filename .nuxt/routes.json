@@ -1,0 +1,16 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/runner/Nefomemes/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_1401389a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/runner/Nefomemes/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6b7a39eb"
+  }
+]

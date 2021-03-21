@@ -1,0 +1,38 @@
+{
+"stacks":{
+"collection": {"github": {
+"name":"GitHub",
+"site":"https://github.com/"
+},
+"git": {
+"name":"Git",
+"site":"https://git-scm.com/"
+},
+"webpack":{
+"name":"Webpack",
+"site":"webpack.js.org"
+},
+"lua": {
+"name":"Lua",
+"site":"https://www.lua.org/about.html",
+},
+"babel":{
+"name":"Babel",
+"site":"https://babeljs.io/",
+},
+"vu":{
+"name":"Venice Unleashed",
+"site":"https://veniceunleashed.net",
+"icon":"https://veniceunleashed.net/assets/img/logo.svg"
+},
+"replit":{
+"name":"Replit",
+"id":"replit",
+"site":"https://replit.com/"
+},
+
+},
+"master":["github", "git", "replit"],
+"learn":["vu", "lua", "webpack", "babel"]
+}
+}
