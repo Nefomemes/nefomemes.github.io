@@ -1,2 +1,2 @@
 language = "bash"
-run = "nuxt"
+run = "bash script.sh"

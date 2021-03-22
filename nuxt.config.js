@@ -15,11 +15,16 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    
+  
+  
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+  	'~/css/main.css'
+  
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,6 +39,9 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
+  server: {
+  	host: '0.0.0.0',
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

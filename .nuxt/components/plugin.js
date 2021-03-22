@@ -2,6 +2,7 @@ import Vue from 'vue'
 
 const components = {
   Logo: () => import('../../components/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => c.default || c),
+  NefoFooter: () => import('../../components/NefoFooter.vue' /* webpackChunkName: "components/nefo-footer" */).then(c => c.default || c),
   VuetifyLogo: () => import('../../components/VuetifyLogo.vue' /* webpackChunkName: "components/vuetify-logo" */).then(c => c.default || c)
 }
 

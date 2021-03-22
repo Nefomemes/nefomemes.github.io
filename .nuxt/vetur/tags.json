@@ -2,6 +2,9 @@
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
+  "NefoFooter": {
+    "description": "Auto imported from components/NefoFooter.vue"
+  },
   "VuetifyLogo": {
     "description": "Auto imported from components/VuetifyLogo.vue"
   }

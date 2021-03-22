@@ -3,12 +3,14 @@
     "name": "inspire",
     "path": "/inspire",
     "component": "/home/runner/nefomemes/pages/inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_20217bd3"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/runner/nefomemes/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_1cf84bea"
   }
 ]
