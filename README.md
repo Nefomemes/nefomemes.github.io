@@ -1,4 +1,4 @@
-# Nefomemes' Portofolio
+# Nefomemes' Portfolio
 
 ## Build Setup
 
